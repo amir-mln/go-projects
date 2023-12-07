@@ -1,0 +1,20 @@
+[
+	{
+		"id":          1,
+		"name":        "Latte",
+		"description": "Frothy milky coffee",
+		"price":       2.45,
+		"sku":         "abc323",
+		"createdOn":   "Fri, 01 Dec 2023 06:13:49 GMT",
+		"updatedOn":   "Fri, 01 Dec 2023 06:13:49 GMT"
+	},
+    {
+		"id":          2,
+		"name":        "Espresso",
+		"description": "Short and strong coffee without milk",
+		"price":       1.99,
+		"sku":         "fjd34",
+		"createdOn":   "Fri, 01 Dec 2023 06:13:49 GMT",
+		"updatedOn":   "Fri, 01 Dec 2023 06:13:49 GMT"
+	}
+]
