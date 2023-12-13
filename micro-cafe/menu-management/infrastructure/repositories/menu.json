@@ -1,0 +1,18 @@
+[
+	{
+		"id":          1,
+		"title":        "Sandwiches",
+		"description": "So many Delicious Sandwiches...",
+		"createdOn":   "Fri, 01 Dec 2023 06:13:49 GMT",
+		"updatedOn":   "Fri, 01 Dec 2023 06:13:49 GMT",
+		"menu-items":[{
+			"id": 1,
+			"menu-ref": 1,
+			"title": "Italian Sub Squares",
+			"description": "crescent roll dough, shredded Asiago, thinly sliced mortadella, sliced provolone",
+			"price": 1.99,
+			"createdOn": "Fri, 01 Dec 2023 06:13:49 GMT",
+			"updatedOn": "Fri, 01 Dec 2023 06:13:49 GMT"
+		}]
+	}
+]

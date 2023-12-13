@@ -8,20 +8,20 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/amir-mln/go-projects/micro-cafe/product-management/app"
-	"github.com/amir-mln/go-projects/micro-cafe/product-management/app/handlers"
-	"github.com/amir-mln/go-projects/micro-cafe/product-management/infrastructure/repositories"
+	"github.com/amir-mln/go-projects/micro-cafe/menu-management/app"
+	"github.com/amir-mln/go-projects/micro-cafe/menu-management/app/handlers"
+	"github.com/amir-mln/go-projects/micro-cafe/menu-management/infrastructure/repositories"
 )
 
 func main() {
-	l := log.New(os.Stdout, "\tproduct-api\t", log.Flags())
-	pr := repositories.NewProductRepository()
+	l := log.New(os.Stdout, "\tmenu-api\t", log.Flags())
+	pr := repositories.NewMenuRepository()
 	as := app.NewApplicationService(pr)
 
-	productsHandler := handlers.NewProductHandler(l, as)
+	menusHandler := handlers.NewMenuHandler(l, as)
 
 	serveMux := http.NewServeMux()
-	serveMux.Handle(handlers.ProductHandlerRoute, productsHandler)
+	serveMux.Handle(handlers.MenuHandlerRoute, menusHandler)
 
 	server := http.Server{
 		Addr:         ":3000",

@@ -4,8 +4,8 @@ Code repository for my Building Microservices YouTube series
 
 ## Services
 
-### Product Management [./product-management](./product-management)
-RESTful Go based JSON API built using the Gorilla framework. The API allows CRUD based operations on a product list.
+### Menu Management [./menu-management](./menu-management)
+RESTful Go based JSON API built using the Gorilla framework. The API allows CRUD based operations on a menu list.
 
 ## What I Learned By This Project
 

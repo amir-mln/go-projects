@@ -1,11 +1,12 @@
-package product
+package menu
 
-type Entity struct {
-	ID          int     `json:"id"`
-	Name        string  `json:"name"`
+type MenuItem struct {
+	ID      int `json:"id"`
+	MenuRef int `json:"-"`
+	// Menu        Menu    `json:"menu"`
+	Title       string  `json:"title"`
 	Description string  `json:"description"`
 	Price       float32 `json:"price"`
-	SKU         string  `json:"sku"`
 	CreatedOn   string  `json:"-"`
 	UpdatedOn   string  `json:"-"`
 	DeletedOn   string  `json:"-"`
