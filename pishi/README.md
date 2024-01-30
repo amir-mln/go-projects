@@ -1,3 +1,3 @@
 # Pishi
 
-Pishi (piʃiː, پیشی) is an interpreter that's written in go.
+Pishi (/piʃiː/; Farsi: پیشی; lit. kitten) is an interpreter that's written in go.
